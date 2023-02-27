@@ -269,7 +269,7 @@ header .container .select-box .options-container.active ~ .search-box input {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #2f3640;
+  color: #2f3644;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -314,7 +314,8 @@ body {
 
 buttu {
   outline:none;
-  float: right;
+  height: 200;
+  width: 200;
   font-family:'helvetica neue' sans-serif; font-size:2em;
   color:hsla(350,0%,100%,1); text-shadow:-1px -1px 1px hsla(350,0%,0%,0.7), 1px 1px 1px hsla(350,0%,100%,0.3);
   display:block; margin:2em auto; padding:23px 37px 25px 35px;
@@ -343,8 +344,10 @@ buttu {
 }
 
 buttu:active {
+  height: 200;
+  width: 200;
   color:hsla(350,0%,85%,1); padding:26px 34px 22px 38px;
-  float: right;
+  
   background-image:
     linear-gradient(273deg,hsla(350,80%,50%,1) 50%, hsla(350,80%,55%,1) 60%)
   ;
