@@ -287,29 +287,6 @@ blackground: black;
 
 @import "compass/css3";
 
-/*I just made this background and wanted to save it here*/
-$colour:hsla(350,100%,25%,1);
-$grey:desaturate($colour,90%);
-body {
-  background:lighten($grey,30%);
-    background-image:
-    linear-gradient(40deg,transparentize($grey,0.95),transparentize($colour,0.95)),
-
-    linear-gradient(135deg,
-        lighten($grey,18%) 0%,
-        lighten($grey,18%) 10%,
-        lighten($grey,25%) 11%,
-        lighten($grey,25%) 40%,
-        lighten($grey,35%) 41%,
-        lighten($grey,35%) 50%,
-        lighten($grey,18%) 51%,
-        lighten($grey,18%) 60%,
-        lighten($grey,25%) 61%,
-        lighten($grey,25%) 90%,
-        lighten($grey,35%) 91%)
-    ;
-    background-size:7px 7px, 4px 4px;
-}
 
 
 buttu {
