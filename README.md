@@ -84,7 +84,7 @@ We used Github in different ways:
 
 **Github Branches** Github branches helped a lot for beta testing of updated code before merging the new code into the original code. Our team approximately created 4-5 branches during the hackathon.
 
-**Github Pages** we deployed our website at https://akshitagupta15june.github.io/WeAidUkraine.github.io/ using Github pages. It was really simple to deploy our site through GitHub pages and we are planning to use this feature in future hackathons.
+**Github Pages** we deployed our website at https://wtjochung.github.io/WeAidUkraine/ using Github pages. It was really simple to deploy our site through GitHub pages and we are planning to use this feature in future hackathons.
 
 **Github Templates** We used the Github default LICENSE template for adding an MIT license to our project.
 
