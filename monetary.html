@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+  <div id="google_translate_button"></div>
+  <script
+    type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateInit"
+  ></script>
+  <script type="text/javascript">
+    function googleTranslateInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: 'en' },
+        'google_translate_button'
+      );
+    }
+  </script>
 <head>
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +25,6 @@
       <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
  
-  
-     
-
        <link rel="stylesheet" href="form.css">
  <title>Monetary Donation</title>
 </head>
@@ -27,17 +37,21 @@
               </i>
                   <bold>Home</bold>
               </a>
+      <a class="navbar-brand" href="donate.html">
+              <i>
+                <img src="pic/Donate_icon.png" height=20px />
+              </i>
+                  <bold>Donate food and clothing</bold>
+              </a>
      </nav>
-    <h1 color:black;">Donate 
-      
-      monetary help to these nonprofit organisation that provide medical aid and humanitarian relief</h1>
+    <h1 color:black;">Donate monetary help to these nonprofit organisation that provide medical aid and humanitarian relief for the ukrainians.</h1>
 
-     <h4 color:black;"><i>Donate now to provide vital aid to people during this difficult time! People in Ukraine need help now.</i></h4>
+     <h5 color:black;"><i>Donate now to provide vital aid to people during this difficult time! People in Ukraine need help now.</i></h5>
   </br>
   </br>
 <div class="row">
   <div class="column">
-   <a href="https://donation.dec.org.uk/ukraine-humanitarian-appeal"> <h4><p><bold>Disasters Emergency Committee (DEC)</bold></p></h4><<h6>Donations to the DEC helps fund 15 leading aid charities and their local partners in Ukraine and neighbouring countries to provide urgent relief and support to refugees and displaced nationals. So far, a huge £202 million has been raised, which will help provide food, water, shelter and medical assistance.</h6>
+   <a href="https://donation.dec.org.uk/ukraine-humanitarian-appeal"> <h4><p><bold>Disasters Emergency Committee (DEC)</bold></p></h4></a><h6>Donations to the DEC helps fund 15 leading aid charities and their local partners in Ukraine and neighbouring countries to provide urgent relief and support to refugees and displaced nationals. So far, a huge £202 million has been raised, which will help provide food, water, shelter and medical assistance.</h6>
     <a href="https://donation.dec.org.uk/ukraine-humanitarian-appeal"><img src="pic/dec.jpg" height="200" width="300"></a>
   </br>
   </br>
@@ -48,7 +62,6 @@
   </br>
      </br>
   </br>
-  
 
    <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=EECANTTJNHN7Y&source=url"> <h4><p><bold>Revived Soldiers Ukraine (RSU)</bold></p></h4></a><h6>The nonprofit organisation helps funds medication and important supplies for army hospitals that are on the front line. The Revived Soldiers Ukraine(opens in new tab) website states they are "dedicated to providing aid to the people of Ukraine so that they may fulfill fundamental rights and freedoms such as right to life, right to appropriate and affordable medical care, freedom of belief and freedom for an adequate standard of living."</h6>
     <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=EECANTTJNHN7Y&source=url"><img src="pic/rsu.png"height="200" width="300"></a>
@@ -76,9 +89,6 @@
     </br>
   </br>
 
-    
-    
-    
   </div>
 </div>
 
